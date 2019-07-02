@@ -8,48 +8,137 @@
 
 /* 第一页 */
 .page1 {
+	position: relative;
 	background: url(img/beijing.png) no-repeat;
 	background-size: cover;
 } 
 .page1 img {
 	position: absolute;
 }
-
+/* 背景 */
 .page1 img:nth-of-type(1) {
 	/* 所有样式以REM为单位：把测出来的PX除以100即可 */
 	width: 4.2rem;
 	height: 6.67rem;
-	/* left: 1.15rem;
-	top: .25rem; */
 } 
-
+/* 中国有嘻哈 */
 .page1 img:nth-of-type(2) {
-	width: 2.17rem;
-	height: 3.57rem;
-	top: .2rem;
-	right: 0;
+    display: block;
+    width: 2.98rem;
+    height: 0.845rem;
+    margin-left: 50px;
+	margin-top: 240px;
+	z-index: 10;
 }
-
+/* pgone */
 .page1 img:nth-of-type(3) {
-	width: 3.22rem;
-	height: 3rem;
-	left: .2rem;
-	bottom: 1rem;
+	display: block;
+    width: 2.06rem;
+    height: 3.72rem;
+    margin-left: 90px;
+    margin-top: 395px;
 }
-
+/* vava */
 .page1 img:nth-of-type(4) {
-	width: 4rem;
-	height: 3.45rem;
-	left: -.8rem;
-	bottom: .7rem;
+	display:block;
+	width: 0.95rem;
+	height: 1.85rem;
+	margin-left: -10px;
+    margin-top: 280px;
+}
+/* xiaobai */
+.page1 img:nth-of-type(5) {
+	display:block;
+	width: 1.68356rem;
+	height: 2.99rem;
+	margin-left: -5px;
+    margin-top: 430px;
+}
+/* birdge */
+.page1 img:nth-of-type(6) {
+	display: block;
+	width: 2.464rem;
+	height: 2.956rem;
+	margin-left:200px;
+	margin-top:440px;
+}
+/* aifu */
+.page1 img:nth-of-type(7) {
+	display: block;
+	width: 1.05rem;
+	height: 1.405rem;
+	margin-left:299px;
+	margin-top:310px;
+}
+/* tt */
+.page1 img:nth-of-type(8) {
+	display: block;
+	width: 1.050rem;
+	height: 1.105rem;
+	margin-left:218px;
+	margin-top:345px;
+	z-index: 10;
+}
+/* ouyang */
+.page1 img:nth-of-type(9) {
+	display: block;
+	width: 1.53rem;
+	height: 2.67072rem;
+	margin-left:110px;
+	margin-top:30px;
+}
+/* join us */
+.page1 img:nth-of-type(10) {
+	display: block;
+	width: 1.49rem;
+	height: 0.3967072rem;
+	margin-left:110px;
+	margin-top:305px;
+	z-index: 10;
+}
+/* you */
+.page1 img:nth-of-type(11) {
+	display: block;
+	width: 1.125rem;
+	height: 1.05rem;
+	margin-left:190px;
+	margin-top:180px;
+}
+/* zuo */
+.page1 img:nth-of-type(12) {
+	display: block;
+	width: 1.125rem;
+	height: 1.05rem;
+	margin-left:100px;
+	margin-top:305px;
+	z-index: 10;
+}
+/* hei1 */
+.page1 img:nth-of-type(13) {
+	display: block;
+    width: 1.10rem;
+    height: 2.535rem;
+    margin-left: 0px;
+    margin-top: -23px;
+}
+/* hei2 */
+.page1 img:nth-of-type(14) {
+	display: block;
+	width: 1.32rem;
+	height: 2.535rem;
+	margin-left:250px;
+	margin-top:-23px;
+	z-index: 10;
+}
+/* di */
+.page1 img:nth-of-type(15) {
+	display: block;
+    width: 2.98rem;
+    height: 1.845rem;
+    margin-left: 50px;
+	margin-top: 240px;
 }
 
-.page1 img:nth-of-type(5) {
-	width: .64rem;
-	height: .6rem;
-	right: .6rem;
-	bottom: 1.7rem;
-}
 
 /* PAGE2 */
 .page2 {
@@ -68,23 +157,56 @@
 	top: .05rem; */
 }
 
-.page2 img:nth-of-type(2),
-.page2 img:nth-of-type(3),
-.page2 img:nth-of-type(4) {
+.page2 img:nth-of-type(2){
+
+}
+.page2 img:nth-of-type(3){
+
+}
+.page2 img:nth-of-type(4){
 	top: 1.4rem;
 	width: .36rem;
 	height: 3.74rem;
 }
-
-.page2 img:nth-of-type(2){
+.page2 img:nth-of-type(5){
 	right: .6rem;
 }
-
-.page2 img:nth-of-type(3){
+.page2 img:nth-of-type(6){
 	left: 50%;
 	margin-left:.04rem; 
 }
-
-.page2 img:nth-of-type(4){
+.page2 img:nth-of-type(7){
 	left: .95rem;
+}
+/* PAGE3 */
+.page3 {
+	background: url(img/beijing.png) no-repeat;
+	background-size: cover;
+}
+
+.page3 img {
+	position: absolute;
+}
+
+.page3 img:nth-of-type(1) {
+	width: 4.2rem;
+	height: 6.67rem;
+	/* left: 0;
+	top: .05rem; */
+}
+/* PAGE4 */
+.page4 {
+	background: url(img/beijing.png) no-repeat;
+	background-size: cover;
+}
+
+.page4 img {
+	position: absolute;
+}
+
+.page4 img:nth-of-type(1) {
+	width: 4.2rem;
+	height: 6.67rem;
+	/* left: 0;
+	top: .05rem; */
 }
