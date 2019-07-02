@@ -133,80 +133,99 @@
 /* di */
 .page1 img:nth-of-type(15) {
 	display: block;
-    width: 2.98rem;
-    height: 1.845rem;
+    width: 2.78rem;
+    height: 1.645rem;
     margin-left: 50px;
 	margin-top: 240px;
 }
 
-
-/* PAGE2 */
+/* 第二页 */
 .page2 {
+	position: relative;
 	background: url(img/beijing.png) no-repeat;
 	background-size: cover;
-}
-
+} 
 .page2 img {
 	position: absolute;
 }
-
+/* 背景 */
 .page2 img:nth-of-type(1) {
+	/* 所有样式以REM为单位：把测出来的PX除以100即可 */
 	width: 4.2rem;
 	height: 6.67rem;
-	/* left: 0;
-	top: .05rem; */
-}
-
-.page2 img:nth-of-type(2){
-
-}
-.page2 img:nth-of-type(3){
-
-}
-.page2 img:nth-of-type(4){
-	top: 1.4rem;
-	width: .36rem;
-	height: 3.74rem;
-}
-.page2 img:nth-of-type(5){
-	right: .6rem;
-}
-.page2 img:nth-of-type(6){
-	left: 50%;
-	margin-left:.04rem; 
-}
-.page2 img:nth-of-type(7){
-	left: .95rem;
-}
-/* PAGE3 */
-.page3 {
-	background: url(img/beijing.png) no-repeat;
-	background-size: cover;
-}
-
-.page3 img {
+} 
+.page2 span{
 	position: absolute;
-}
+	color: white;
+	font-size: 21px;
+	margin-left: 100px;
+    margin-top: 540px;
 
-.page3 img:nth-of-type(1) {
-	width: 4.2rem;
-	height: 6.67rem;
-	/* left: 0;
-	top: .05rem; */
 }
-/* PAGE4 */
-.page4 {
-	background: url(img/beijing.png) no-repeat;
-	background-size: cover;
+/* hei1 */
+.page2 img:nth-of-type(2) {
+	display: block;
+    width: 1.10rem;
+    height: 2.535rem;
+    margin-left: 0px;
+    margin-top: -23px;
 }
-
-.page4 img {
-	position: absolute;
+/* hei2 */
+.page2 img:nth-of-type(3) {
+	display: block;
+	width: 1.32rem;
+	height: 2.535rem;
+	margin-left:250px;
+	margin-top:-23px;
+	z-index: 10;
 }
-
-.page4 img:nth-of-type(1) {
-	width: 4.2rem;
-	height: 6.67rem;
-	/* left: 0;
-	top: .05rem; */
+/* y1 */
+.page2 img:nth-of-type(4) {
+	display: block;
+	width: 1.956rem;
+	height: 1.535rem;
+	margin-left:90px;
+	margin-top:35px;
+	z-index: 10;
+	transform:rotate(45deg);
+}
+/* wuyifan */
+.page2 img:nth-of-type(5) {
+	display: block;
+	width: 0.975rem;
+	height: 0.975rem;
+	margin-left:70px;
+	margin-top:240px;
+}
+/* panweibo */
+.page2 img:nth-of-type(6) {
+	display: block;
+	width: 0.975rem;
+	height: 0.975rem;
+	margin-left:200px;
+	margin-top:370px;
+}
+/* ayue */
+.page2 img:nth-of-type(7) {
+	display: block;
+	width: 0.975rem;
+	height: 0.975rem;
+	margin-left:70px;
+	margin-top:400px;
+}
+/* hotdog */
+.page2 img:nth-of-type(8) {
+	display: block;
+	width: 1.175rem;
+	height: 1.175rem;
+	margin-left:220px;
+	margin-top:230px;
+}
+/* heitiao */
+.page2 img:nth-of-type(9) {
+	display: block;
+	width: 2.199rem;
+	height: 0.385rem;
+	margin-left:80px;
+	margin-top:540px;
 }
