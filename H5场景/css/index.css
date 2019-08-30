@@ -119,7 +119,7 @@
     width: 1.10rem;
     height: 2.535rem;
     margin-left: 0px;
-    margin-top: -23px;
+    margin-top: -30px;
 }
 /* hei2 */
 .page1 img:nth-of-type(14) {
@@ -127,7 +127,7 @@
 	width: 1.32rem;
 	height: 2.535rem;
 	margin-left:250px;
-	margin-top:-23px;
+	margin-top:-30px;
 	z-index: 10;
 }
 /* di */
@@ -159,7 +159,7 @@
 	color: white;
 	font-size: 21px;
 	margin-left: 100px;
-    margin-top: 540px;
+    margin-top: 580px;
 
 }
 /* hei1 */
@@ -185,41 +185,42 @@
 	width: 1.956rem;
 	height: 1.535rem;
 	margin-left:90px;
-	margin-top:35px;
+	margin-top:90px;
 	z-index: 10;
 	transform:rotate(45deg);
 }
+
 /* wuyifan */
 .page2 img:nth-of-type(5) {
 	display: block;
 	width: 0.975rem;
 	height: 0.975rem;
-	margin-left:70px;
-	margin-top:240px;
+	margin-left:50px;
+	margin-top:250px;
 }
 /* panweibo */
 .page2 img:nth-of-type(6) {
 	display: block;
 	width: 0.975rem;
 	height: 0.975rem;
-	margin-left:200px;
-	margin-top:370px;
+	margin-left:240px;
+	margin-top:410px;
 }
 /* ayue */
 .page2 img:nth-of-type(7) {
 	display: block;
 	width: 0.975rem;
 	height: 0.975rem;
-	margin-left:70px;
+	margin-left:50px;
 	margin-top:400px;
 }
 /* hotdog */
 .page2 img:nth-of-type(8) {
 	display: block;
-	width: 1.175rem;
-	height: 1.175rem;
-	margin-left:220px;
-	margin-top:230px;
+	width: 0.975rem;
+	height: 0.975rem;
+	margin-left:250px;
+	margin-top:250px;
 }
 /* heitiao */
 .page2 img:nth-of-type(9) {
@@ -227,5 +228,345 @@
 	width: 2.199rem;
 	height: 0.385rem;
 	margin-left:80px;
-	margin-top:540px;
+	margin-top:575px;
+}
+/* zuozhi */
+.page2 img:nth-of-type(10) {
+	display: block;
+	width: 1.956rem;
+	height: 1.535rem;
+	margin-left:90px;
+	margin-top:65px;
+	transform:rotate(45deg);
+}
+/* youzhi */
+.page2 img:nth-of-type(11) {
+	display: block;
+	width: 1.956rem;
+	height: 1.535rem;
+	margin-left:110px;
+	margin-top:45px;
+	transform:rotate(45deg);
+}
+/* you */
+.page2 img:nth-of-type(12) {
+	display: block;
+	width: 1.125rem;
+	height: 1.05rem;
+	margin-left:205px;
+	margin-top:55px;
+	z-index: 10;
+}
+/* zuo */
+.page2 img:nth-of-type(13) {
+	display: block;
+	width: 1.125rem;
+	height: 1.05rem;
+	margin-left:70px;
+	margin-top:50px;
+	z-index: 10;
+}
+/* d1 */
+.page2 img:nth-of-type(14) {
+	display: block;
+    width: 1.06rem;
+    height: 1.52rem;
+    margin-left: 150px;
+    margin-top: 405px;
+}
+/* d3 */
+.page2 img:nth-of-type(15) {
+	display: block;
+    width: 0.86rem;
+    height: 1.92rem;
+    margin-left: 150px;
+    margin-top: 225px;
+}
+/* 第三页 */
+.page3 img {
+	position: absolute;
+}
+/* 背景 */
+.page3 img:nth-of-type(1) {
+	/* 所有样式以REM为单位：把测出来的PX除以100即可 */
+	width: 4.2rem;
+	height: 6.67rem;
+} 
+.page3 span1{
+	position: absolute;
+	color: rgb(255,255,255);
+	font-size: 24px;
+	margin-left: 140px;
+	margin-right:15px;
+	margin-top: 260px;
+
+}
+.page3 span2{
+	position: absolute;
+	color: rgb(255,255,255);
+	font-size: 17px;
+	margin-left: 15px;
+	margin-right:15px;
+	margin-top: 320px;
+	line-height: 20px;
+}
+/* hei1 */
+.page3 img:nth-of-type(2) {
+	display: block;
+    width: 1.10rem;
+    height: 2.535rem;
+    margin-left: 0px;
+    margin-top: -23px;
+}
+/* hei2 */
+.page3 img:nth-of-type(3) {
+	display: block;
+	width: 1.32rem;
+	height: 2.535rem;
+	margin-left:250px;
+	margin-top:-23px;
+	z-index: 10;
+}
+/* y1 */
+.page3 img:nth-of-type(4) {
+	display: block;
+	width: 1.956rem;
+	height: 1.535rem;
+	margin-left:90px;
+	margin-top:110px;
+	z-index: 10;
+	transform:rotate(45deg);
+}
+/* zuozhi */
+.page3 img:nth-of-type(5) {
+	display: block;
+	width: 1.956rem;
+	height: 1.535rem;
+	margin-left:100px;
+	margin-top:85px;
+	transform:rotate(45deg);
+}
+/* youzhi */
+.page3 img:nth-of-type(6) {
+	display: block;
+	width: 1.956rem;
+	height: 1.535rem;
+	margin-left:110px;
+	margin-top:65px;
+	transform:rotate(45deg);
+}
+/* you */
+.page3 img:nth-of-type(7) {
+	display: block;
+	width: 1.125rem;
+	height: 1.05rem;
+	margin-left:205px;
+	margin-top:75px;
+	z-index: 10;
+}
+/* zuo */
+.page3 img:nth-of-type(8) {
+	display: block;
+	width: 1.125rem;
+	height: 1.05rem;
+	margin-left:70px;
+	margin-top:70px;
+	z-index: 10;
+}
+/* jiantou */
+.page3 img:nth-of-type(9) {
+	display: block;
+	width: 2.199rem;
+	height: 0.385rem;
+	margin-left:80px;
+	margin-top:255px;
+}
+/* subayi */
+.page3 img:nth-of-type(10) {
+	display: block;
+	width: 2.199rem;
+	height: 2.385rem;
+	margin-left:130px;
+	margin-top:455px;
+}
+/* 第四页 */
+.page4 img {
+	position: absolute;
+}
+/* 背景 */
+.page4 img:nth-of-type(1) {
+	/* 所有样式以REM为单位：把测出来的PX除以100即可 */
+	width: 4.2rem;
+	height: 6.67rem;
+} 
+.page4 span1{
+	position: absolute;
+	color: rgb(255,255,255);
+	font-size: 24px;
+	margin-left: 140px;
+	margin-right:15px;
+	margin-top: 260px;
+
+}
+/* hei1 */
+.page4 img:nth-of-type(2) {
+	display: block;
+    width: 1.10rem;
+    height: 2.535rem;
+    margin-left: 0px;
+    margin-top: -23px;
+}
+/* hei2 */
+.page4 img:nth-of-type(3) {
+	display: block;
+	width: 1.32rem;
+	height: 2.535rem;
+	margin-left:250px;
+	margin-top:-23px;
+	z-index: 10;
+}
+/* y1 */
+.page4 img:nth-of-type(4) {
+	display: block;
+	width: 1.956rem;
+	height: 1.535rem;
+	margin-left:90px;
+	margin-top:110px;
+	z-index: 10;
+	transform:rotate(45deg);
+}
+/* zuozhi */
+.page4 img:nth-of-type(5) {
+	display: block;
+	width: 1.956rem;
+	height: 1.535rem;
+	margin-left:100px;
+	margin-top:85px;
+	transform:rotate(45deg);
+}
+/* youzhi */
+.page4 img:nth-of-type(6) {
+	display: block;
+	width: 1.956rem;
+	height: 1.535rem;
+	margin-left:110px;
+	margin-top:65px;
+	transform:rotate(45deg);
+}
+/* you */
+.page4 img:nth-of-type(7) {
+	display: block;
+	width: 1.125rem;
+	height: 1.05rem;
+	margin-left:205px;
+	margin-top:75px;
+	z-index: 10;
+}
+/* zuo */
+.page4 img:nth-of-type(8) {
+	display: block;
+	width: 1.125rem;
+	height: 1.05rem;
+	margin-left:70px;
+	margin-top:70px;
+	z-index: 10;
+}
+/* jiantou */
+.page4 img:nth-of-type(9) {
+	display: block;
+	width: 2.199rem;
+	height: 0.385rem;
+	margin-left:80px;
+	margin-top:255px;
+}
+.page4 img:nth-of-type(10) {
+	display: block;
+	width: 1.485rem;
+	height: 1.385rem;
+	margin-left:30px;
+	margin-top:315px;
+}
+.page4 img:nth-of-type(11) {
+	display: block;
+	width: 3.099rem;
+	height: 1.385rem;
+	margin-left:30px;
+	margin-top:485px;
+}
+.page4 img:nth-of-type(12) {
+	display: block;
+	width: 1.099rem;
+	height: 1.385rem;
+	margin-left:220px;
+	margin-top:315px;
+}
+/* 第五页 */
+.page5 img {
+	position: absolute;
+}
+/* 背景 */
+.page5 img:nth-of-type(1) {
+	/* 所有样式以REM为单位：把测出来的PX除以100即可 */
+	width: 4.2rem;
+	height: 6.67rem;
+} 
+.page5 span1{
+	position: absolute;
+	color: rgb(255,255,255);
+	font-size: 40px;
+	margin-left: 50px;
+	margin-top: 110px;
+}
+.page5 span2{
+	position: absolute;
+	color: rgb(255,255,255);
+	font-size: 26px;
+	margin-left: 100px;
+	margin-top: 210px;
+}
+.page5 img:nth-of-type(2) {
+	display: block;
+	width: 1.099rem;
+	height: 0.585rem;
+	margin-left:220px;
+	margin-top:210px;
+}
+.page5 span3{
+	position: absolute;
+	color: rgb(255,255,255);
+	font-size: 26px;
+	margin-left: 50px;
+	margin-top: 310px;
+}
+.page5 span4{
+	position: absolute;
+	color: rgb(255,255,255);
+	font-size: 26px;
+	margin-left: 120px;
+	margin-top: 410px;
+}
+.page5 span5{
+	position: absolute;
+	color: rgb(255,255,255);
+	font-size: 30px;
+	margin-left: 210px;
+	margin-top: 510px;
+}
+
+/* 第六页 */
+.page6 img {
+	position: absolute;
+}
+/* 背景 */
+.page6 img:nth-of-type(1) {
+	/* 所有样式以REM为单位：把测出来的PX除以100即可 */
+	width: 3.75rem;
+	height: 6.67rem;
+} 
+.page6 span1{
+	position: absolute;
+	color: rgb(255,255,255);
+	font-size: 26px;
+	margin-left: 110px;
+	margin-top: 480px;
 }
